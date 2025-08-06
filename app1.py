@@ -13,7 +13,7 @@ linkedin_url = st.text_input("Enter LinkedIn Profile URL", placeholder="https://
 submit = st.button("Scrape Profile")
 
 # Relevance AI API endpoint
-API_URL = "https://api-d7b62b.stack.tryrelevance.com/latest/studios/734525c2-feb4-4c23-9b8b-5deceaca65e2/trigger_webhook?project=ddf1c035-3282-44f9-a0ad-4b7cfa8766c0"
+API_URL = "https://api-d7b62b.stack.tryrelevance.com/latest/studios/e4c0b278-4a40-4472-82fe-b685bd5e974c/trigger_webhook?project=12a5d244-8083-4b83-8317-409bb5da0134"
 
 def is_valid_linkedin_url(url):
     return any(p in url.lower() for p in ["linkedin.com/in/", "linkedin.com/company/"])
